@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #dc143c;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif; /* Use a modern font like Inter */
+  /* Consider using a logo image for better branding */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-family: 'Inter', sans-serif; /* Consistent font */
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal; /* Adjust weight for balance */
+  transition: all 0.2s ease-in-out; /* Add smooth hover effects */
+}
+
+.nav-links li a:hover {
+  background-color: rgba(220, 20, 60, 0.2); /* Subtle hover background */
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #fff; /* Consistent color */
+  border-radius: 5px; /* Rounded input field */
+  background-color: #dc143c; /* Match navbar background */
+  color: #fff; /* Clear contrast */
+}
+
+
+.search-form button {
+  background-color: #dc143c;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  font-family: sans-serif; /* Start with a default font */
+}
+
+.search-form button:hover {
+  background-color: rgb(255, 0, 140); /* Change background to blue on hover */
+  font-family: 'Monotype Corsiva', cursive; /* Change font on hover */
+}
